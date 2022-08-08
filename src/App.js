@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import BootNavbar from "./components/navbar/navbar.js";
+import Landing from "./components/landing/landing.js";
+import About from "./components/about/about.js";
+import Tracks from "./components/tracks/tracks.js";
+import Prizes from "./components/prizes/prizes.js";
+import Sponsors from "./components/sponsors/sponsors.js";
+import FAQ from "./components/faq/faq.js";
+import Footer from "./components/footer/footer.js";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <BootNavbar />
+        <Landing />
+        <About />
+        <Tracks />
+        <Prizes />
+        <Sponsors />
+        <FAQ />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

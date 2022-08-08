@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #1c1f35;
+}
+
+.navtitle {
+  color: #fff;
+}
+
+.navlinks {
+  color: #fff;
+  padding: 0 2rem;
+}
+
+.navbar-toggler-icon {
+  color: rgb(255, 102, 203) !important;
+  border: white 2;
+}
