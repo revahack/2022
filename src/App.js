@@ -6,22 +6,19 @@ import Prizes from "./components/prizes/prizes.js";
 import Sponsors from "./components/sponsors/sponsors.js";
 import FAQ from "./components/faq/faq.js";
 import Footer from "./components/footer/footer.js";
-import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div>
-        <BootNavbar />
-        <Landing />
-        <About />
-        <Tracks />
-        <Prizes />
-        <Sponsors />
-        <FAQ />
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <div>
+      <BootNavbar />
+      <Landing />
+      <About />
+      <Tracks />
+      <Prizes />
+      <Sponsors />
+      <FAQ />
+      <Footer />
+    </div>
   );
 }
 
