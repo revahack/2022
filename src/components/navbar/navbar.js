@@ -7,26 +7,26 @@ export default function BootNavbar() {
   return (
     <Navbar sticky="top" className="navbar" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#hero">
           <h2 className="navtitle">REVA Hack</h2>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle bg="light" aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav light">
           <Nav className="me-auto" />
           <Nav>
-            <Nav.Link href="#deets">
+            <Nav.Link href="#about">
               <span className="navlinks">ABOUT</span>
             </Nav.Link>
-            <Nav.Link eventKey={2} href="/">
+            <Nav.Link eventKey={2} href="#tracks">
               <span className="navlinks">TRACKS</span>
             </Nav.Link>
-            <Nav.Link eventKey={3} href="/">
+            <Nav.Link eventKey={3} href="#prizes">
               <span className="navlinks">PRIZES</span>
             </Nav.Link>
-            <Nav.Link eventKey={4} href="/">
+            <Nav.Link eventKey={4} href="#sponsors">
               <span className="navlinks">SPONSORS</span>
             </Nav.Link>
-            <Nav.Link eventKey={5} href="/">
+            <Nav.Link eventKey={5} href="#faq">
               <span className="navlinks">FAQ</span>
             </Nav.Link>
           </Nav>
