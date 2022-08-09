@@ -7,7 +7,7 @@ export default class Landing extends Component {
   render() {
     return (
       <>
-        <div className='landing-main'>
+        <div id="hero" className='landing-main'>
           <ParticleBackground />
           <div className='hvr-shutter-in-vertical name'>REVA Hack</div>
           <div className='name-2'>

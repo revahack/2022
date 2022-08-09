@@ -1,4 +1,5 @@
 .about-main {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4); 
   padding-top: 3rem;
   padding-bottom: 4rem;
   /* height: 100vh; */
@@ -22,7 +23,7 @@
 
 @media only screen and (min-width: 992px) {
   .about-main {
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4); 
+  
 
     padding-top: 6rem;
     padding-bottom: 6rem;
