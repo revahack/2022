@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./landing.css";
 import Typewriter from "typewriter-effect";
-import ParticleBackground from "./particleBackground";
 
 export default class Landing extends Component {
   render() {
@@ -24,8 +23,7 @@ export default class Landing extends Component {
           <button>Button 1</button>
           <button>Button 2</button>
         </div> */}
-        </div>
-      </>
+      </div>
     );
   }
 }
