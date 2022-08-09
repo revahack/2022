@@ -8,7 +8,7 @@ export default function BootNavbar() {
     <Navbar className="navbar" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-          <h2 className="navtitle">REVA Hacks</h2>
+          <h2 className="navtitle">REVA Hack</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

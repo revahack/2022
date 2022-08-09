@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import "./landing.css";
 import Typewriter from "typewriter-effect";
+import ParticleBackground from "./particleBackground";
 
 export default class Landing extends Component {
   render() {
     return (
       <>
         <div className='landing-main'>
+          <ParticleBackground />
           <div className='hvr-shutter-in-vertical name'>REVA Hack</div>
-          <div className='hvr-shutter-in-vertical name-2'>
+          <div className='name-2'>
             <Typewriter
               options={{
-                strings: ["Coming Soon..", "Get Ready.."],
+                strings: ["Coming Soon..", "The Hack Is Back.."],
                 autoStart: true,
                 loop: true,
               }}
