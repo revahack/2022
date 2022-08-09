@@ -1,3 +1,4 @@
+
 /* Shutter In Vertical */
 .hvr-shutter-in-vertical {
   display: inline-block;
@@ -52,7 +53,7 @@
   /* making the background a bit dark  */
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 
-  animation: transitionIn 1.5s;
+  /* animation: transitionIn 1.5s; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,13 +64,13 @@
   background-size: cover;
   background-position: center;
   min-height: 100%;
-  height: 100vh;
   /* position: relative; */
 }
 
 .name {
+  /* pointer-events:none; */
   cursor: pointer;
-  animation: transitionIn 1.5s;
+  /* animation: transitionIn 1.5s; */
   /* background-color: rgba(83,93,161,0.8); */
   color: white;
   border-radius: 20px;
@@ -103,7 +104,7 @@
 }
 
 .name-2 {
-  animation: transitionIn 1.5s;
+  /* animation: transitionIn 1.5s; */
   margin: 1rem auto;
   display: flex;
   justify-content: center;
@@ -126,7 +127,7 @@
   } */
 
   .name-2 {
-    animation: transitionIn 1.5s;
+    /* animation: transitionIn 1.5s; */
     margin: 1rem auto;
     display: flex;
     justify-content: center;

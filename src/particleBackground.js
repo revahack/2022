@@ -23,11 +23,7 @@ const ParticleBackground = () => {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-                background: {
-                    color: {
-                        // value: "#0d47a1",
-                    },
-                },
+                fullScreen: { enable: true },
                 fpsLimit: 120,
                 interactivity: {
                     events: {

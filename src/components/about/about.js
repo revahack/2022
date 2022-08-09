@@ -42,7 +42,7 @@ const About = () => {
               semi-formal engagement events like Kahoots, stressbusters, etc.
               that come with goodies. Our mission at The Hackathon Club is to
               fuel your innovation and REVA Hack is our way of doing just that.
-            </h5><br />
+            </h5>
           </div>
         </Container>
       </Container>
