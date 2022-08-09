@@ -5,7 +5,7 @@ import "./navbar.css";
 
 export default function BootNavbar() {
   return (
-    <Navbar className="navbar" expand="lg">
+    <Navbar sticky="top" className="navbar" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
           <h2 className="navtitle">REVA Hack</h2>
