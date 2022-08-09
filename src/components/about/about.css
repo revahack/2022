@@ -54,7 +54,9 @@
     color: white;
     text-align: center;
     letter-spacing: 3px;
-    line-height: 5px;
-  
+    /* line-height: 5rem; */
+  }
+  .paragraph h5{
+    line-height: 2rem;
   }
 }
