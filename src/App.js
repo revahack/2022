@@ -6,7 +6,7 @@ import Prizes from "./components/prizes/prizes.js";
 import Sponsors from "./components/sponsors/sponsors.js";
 import FAQ from "./components/faq/faq.js";
 import Footer from "./components/footer/footer.js";
-import ParticleBackground from "./particleBackground";
+
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
       <Sponsors />
       <FAQ />
       <Footer />
-      <ParticleBackground />
     </div>
   );
 }
