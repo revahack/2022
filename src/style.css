@@ -2,15 +2,14 @@
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4); 
 } */
 
-
 @keyframes transitionIn {
-    from{
-      opacity: 0;
-      transform: translateY(5rem);
-    }
-  
-    to{
-      opacity: 1;
-      transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(5rem);
   }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

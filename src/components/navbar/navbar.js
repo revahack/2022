@@ -10,7 +10,10 @@ export default function BootNavbar() {
         <Navbar.Brand href="#hero">
           <h2 className="navtitle">REVA Hack</h2>
         </Navbar.Brand>
-        <Navbar.Toggle bg="light" aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          bg="light"
+          aria-controls="basic-navbar-nav"
+        ></Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav light">
           <Nav className="me-auto" />
           <Nav>
