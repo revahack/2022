@@ -27,7 +27,6 @@ export default function Footer() {
               </div>
               <p class="copyright">
                   <h6>copyright REVA Hack &copy;2022</h6>
-                  {/* <small>&copy; 2019</small> */}
               </p>
             </div>
           </Container>
