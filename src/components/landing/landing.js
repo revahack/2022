@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./landing.css";
 import Typewriter from "typewriter-effect";
-import ParticleBackground from "../../particleBackground"
+import ParticleBackground from "../../particleBackground";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -11,27 +11,31 @@ const Landing = () => {
   }, []);
   return (
     <>
-    <div id="hero" className="landing-main">
-      <div data-aos="fade-up" className="hvr-shutter-in-vertical name">REVA Hack</div>
-      <div data-aos="fade-up" className="name-2">
-        <Typewriter
-          options={{
-            strings: ["Coming Soon..", "The Hack Is Back.."],
-            autoStart: true,
-            loop: true,
-          }}
+      <div id='hero' className='landing-main'>
+        <a className="atag" href='#about'>
+          <div data-aos='fade-up' className='hvr-shutter-in-vertical name'>
+            {" "}
+            REVA Hack{" "}
+          </div>
+        </a>
+        <div data-aos='fade-up' className='name-2'>
+          <Typewriter
+            options={{
+              strings: ["Coming Soon..", "The Hack Is Back.."],
+              autoStart: true,
+              loop: true,
+            }}
           />
-      </div>
-      {/* After Coming soon gets over */}
-      {/* <div className='main-buttons'>
+        </div>
+        {/* After Coming soon gets over */}
+        {/* <div className='main-buttons'>
         <button>Button 1</button>
         <button>Button 2</button>
       </div> */}
-    <ParticleBackground/>
-    </div>
-      </>
+        <ParticleBackground />
+      </div>
+    </>
   );
-}
+};
 
-
-export default Landing
+export default Landing;
