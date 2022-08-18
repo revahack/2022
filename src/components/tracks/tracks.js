@@ -1,4 +1,4 @@
-import React ,{ useEffect } from "react";
+import React, { useEffect } from "react";
 import "./tracks.css";
 
 import Container from "react-bootstrap/Container";
@@ -6,11 +6,10 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import bg from "../../images/tracks_bg.png";
-import aiicon from "../../images/ai_icon.svg";
-import blicon from "../../images/blockchain_icon.svg";
+
+import { trackData } from "../../data/tracksData";
 
 const Tracks = () => {
-
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -24,42 +23,24 @@ const Tracks = () => {
         </div>
       </Container>
       <Container className="track-card-container">
-        <div data-aos="slide-up" className="track-container">
-          <div className="track-card">
-            <div className="card-front">
-              <img className="card-front-image" src={aiicon} alt="" />
+        {trackData.map((item, i) => {
+          return (
+            <div key={i} data-aos="slide-up" className="track-container">
+              <div className="track-card">
+                <div className="card-front">
+                  <img className="card-front-image" src={item.image} alt="" />
+                </div>
+                <div className="card-back">
+                  <div className="card-back-content">
+                    <h3 className="card-title">{item.title}</h3>
+                    <hr />
+                    <p className="track-para"> {item.paragraph} </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="card-back">
-              <h3>Artificial Intelligence</h3>
-              <hr />
-              <p className="track-para">
-                AI track is essentially a gathering of forward-thinking data
-                scientists and developers to utilize artificial intelligence and
-                tackle real-world challenges. This hackathon evaluates a
-                candidate's ability to make quick decisions and to add value in
-                the lowest amount of time.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div data-aos="slide-up" className="track-container">
-          <div className="track-card">
-            <div className="card-front">
-              <img className="card-front-image" src={blicon} alt="" />
-            </div>
-            <div className="card-back">
-              <h3>Block Chain</h3>
-              <hr />
-              <p className="track-para">
-                In the Blockchain track, candidates will provide decentralized,
-                distributed, and public digital ledger solutions that power
-                cryptocurrencies and NFTs of the world. To solve problems that
-                can not be overcome by conventional approaches.
-              </p>
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </Container>
     </div>
   );
