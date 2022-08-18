@@ -11,7 +11,7 @@ const About = () => {
   }, []);
 
   return (
-    <div id="about" className='about-main'>
+    <div id="about" className='about-main d-flex align-items-center justify-content-center'>
       <Container>
         <div data-aos="slide-up" className='about-heading'>
           <h1 className='heading'>ABOUT US</h1>
@@ -42,7 +42,7 @@ const About = () => {
               semi-formal engagement events like Kahoots, stressbusters, etc.
               that come with goodies. Our mission at The Hackathon Club is to
               fuel your innovation and REVA Hack is our way of doing just that.
-            </h5>
+            </h5><br />
           </div>
         </Container>
       </Container>
