@@ -2,12 +2,8 @@
   position: relative;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
   padding-top: 3rem;
-<<<<<<< HEAD
   /* padding-bottom: 4rem; */
   /* height: 100vh; */
-=======
-  padding-bottom: 4rem;
->>>>>>> 4e56dfdc615a1514b6e3a6933700ee44705f7889
   background-color: #1c1f35;
 }
 
