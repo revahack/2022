@@ -12,12 +12,16 @@ const Landing = () => {
   return (
     <>
       <div id='hero' className='landing-main'>
-        <a className="atag" href='#about'>
+        {/* <a className="atag" href='#about'>
           <div data-aos='fade-up' className='hvr-shutter-in-vertical name'>
             {" "}
+
             REVA Hack{" "}
           </div>
-        </a>
+        </a> */}
+        <h1 data-aos='fade-up' className="test">
+          REVA HACK
+        </h1>
         <div data-aos='fade-up' className='name-2'>
           <Typewriter
             options={{
