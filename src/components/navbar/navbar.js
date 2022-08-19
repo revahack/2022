@@ -1,14 +1,19 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import logo from "../../images/RH_logo_circle3.svg"
+// import logo from "../../images/RH_logo_sq2.svg"
 import "./navbar.css";
+
 
 export default function BootNavbar() {
   return (
     <Navbar sticky="top" className="navbar" expand="lg">
       <Container>
         <Navbar.Brand href="#hero">
-          <h2 className="navtitle">REVA Hack</h2>
+          {/* <h2 className="navtitle">REVA Hack</h2> */}
+          <img className="navtitle" height="70px" width="70px" src={logo} alt="" />
+
         </Navbar.Brand>
         <Navbar.Toggle
           bg="light"

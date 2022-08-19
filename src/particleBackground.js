@@ -23,6 +23,7 @@ const ParticleBackground = () => {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
+                bounce:false,
                 fullScreen: { enable: true },
                 fpsLimit: 120,
                 interactivity: {
@@ -59,10 +60,10 @@ const ParticleBackground = () => {
                         width: 1,
                     },
                     collisions: {
-                        enable: true,
+                        enable: false,
                     },
                     move: {
-                        directions: "none",
+                        directions: "random",
                         enable: true,
                         outModes: {
                             default: "bounce",
