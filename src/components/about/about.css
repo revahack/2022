@@ -19,6 +19,10 @@
   letter-spacing: 2px;
 }
 
+.paragraph h5{
+  font-size:small !important;
+}
+
 @media only screen and (min-width: 992px) {
   .about-main {
 
@@ -47,14 +51,15 @@
   }
 
   .paragraph {
-    width: 95%;
+    width: 80%;
     margin: auto;
     color: white;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     /* line-height: 5rem; */
   }
   .paragraph h5 {
-    line-height: 2rem;
+    font-size:small !important;
+    line-height: 1.2rem;
   }
 }
