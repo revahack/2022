@@ -1,4 +1,65 @@
 .about-main {
-  height: 100vh;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  padding-top: 3rem;
+  /* padding-bottom: 4rem; */
+  /* height: 100vh; */
   background-color: #1c1f35;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 1000;
+  color: rgba(83, 93, 161);
+}
+.paragraph {
+  padding: 5px 5px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.paragraph h5{
+  font-size:small !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .about-main {
+
+    position: relative;
+    padding-top: 6rem;
+    /* padding-bottom: 6rem; */
+    /* height: 100vh; */
+    background-color: #1c1f35;
+  }
+
+  .about-heading {
+    height: 6rem;
+    position: relative;
+  }
+
+  .heading {
+    position: absolute;
+    top: 1.6rem;
+    left: 2rem;
+    font-weight: 1000;
+    color: rgba(83, 93, 161, 0.8);
+  }
+
+  .line {
+    position: absolute;
+  }
+
+  .paragraph {
+    width: 80%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    /* line-height: 5rem; */
+  }
+  .paragraph h5 {
+    font-size:medium !important;
+    line-height: 1.2rem;
+  }
 }

@@ -7,6 +7,7 @@ import Sponsors from "./components/sponsors/sponsors.js";
 import FAQ from "./components/faq/faq.js";
 import Footer from "./components/footer/footer.js";
 
+
 function App() {
   return (
     <div>
