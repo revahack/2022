@@ -1,21 +1,62 @@
-import React, { Component } from "react";
+import React from 'react';
 import "./faq.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import {useState} from "react";
 
-export default class FAQ extends Component {
-  render() {
-    return (
-      <div id="faq" className="faq-main">
-        <Container className="faq-container">
-          <Row>
-            <h1 className="faq-title"> FAQ </h1>
-          </Row>
-          <Row>
-            <h2 className="faq-details"> Coming Soon.... </h2>
-          </Row>
-        </Container>
-      </div>
-    );
+const FAQ = () => {
+
+  const [selected, setSelected] = useState(null);
+
+  const toggle = (i) => {
+    if (selected === i) {
+      return setSelected(null)
+    }
+
+    setSelected(i)
   }
+
+
+  return (
+    <div className="faq-main">
+      <h1> FAQ </h1>
+      <div className="accordion">
+        {data.map((item, i) => (
+          <div className="item">
+            <div className="title" onClick={() => toggle(i)}>
+              <h2>{item.faq}</h2>
+              <span>{selected === i ? '-' : '+'}</span>
+            </div>
+            <div className={selected === i ? 'content show' : 'content'}>
+              {item.ans}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
 }
+
+// Question and Answer
+const data = [
+  {
+    faq: 'FAQ 1',
+    ans: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  },
+  {
+    faq: 'FAQ 2',
+    ans: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  },
+  {
+    faq: 'FAQ 3',
+    ans: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  },
+  {
+    faq: 'FAQ 4',
+    ans: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  },
+  {
+    faq: 'FAQ 5',
+    ans: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  }
+]
+
+export default FAQ
