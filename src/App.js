@@ -6,7 +6,7 @@ import Prizes from "./components/prizes/prizes.js";
 import Sponsors from "./components/sponsors/sponsors.js";
 import FAQ from "./components/faq/faq.js";
 import Footer from "./components/footer/footer.js";
-
+import TimeLine from "./components/timeline/timeline.js";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <About />
       <Tracks />
       <Prizes />
+      <TimeLine />
       <Sponsors />
       <FAQ />
       <Footer />
