@@ -35,10 +35,13 @@ export default function BootNavbar() {
             <Nav.Link eventKey={3} href="#prizes">
               <span className="navlinks">PRIZES</span>
             </Nav.Link>
-            <Nav.Link eventKey={4} href="#sponsors">
+            <Nav.Link eventKey={4} href="#timeline">
+              <span className="navlinks">TIMELINE</span>
+            </Nav.Link>
+            <Nav.Link eventKey={5} href="#sponsors">
               <span className="navlinks">SPONSORS</span>
             </Nav.Link>
-            <Nav.Link eventKey={5} href="#faq">
+            <Nav.Link eventKey={6} href="#faq">
               <span className="navlinks">FAQ</span>
             </Nav.Link>
           </Nav>

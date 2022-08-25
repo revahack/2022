@@ -1,15 +1,23 @@
 import React, { Component } from "react";
 import "./timeline.css";
+import Container from "react-bootstrap/Container";
+import bg from "../../images/tracks_bg.png";
+
 
 export default class TimeLine extends Component {
   render() {
     return (
-      <div className="timeline-main">
-        <h2>Hackathon TimeLine</h2>
-        <div class="timeline">
-          <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+      <div id="timeline" className="timeline-main d-flex align-items-center justify-content-center">
+        <Container>
+        <div data-aos="slide-up" className="track-heading-div">
+          <h1 className="track-heading">TIMELINE</h1>
+          <img className="track-img" src={bg} width={"100%"} alt="" />
+        </div>
+        <Container>
+        <div id="timeline2" class="timeline">
+          <div data-aos="slide-up" class="timeline__event timeline__event--type1">
             <div class="timeline__event__icon ">
-              <i class="lni-cake"></i>
+              <i class="lni lni-cake"></i>
             </div>
             <div class="timeline__event__date">20-08-2019</div>
             <div class="timeline__event__content ">
@@ -24,9 +32,9 @@ export default class TimeLine extends Component {
               </div>
             </div>
           </div>
-          <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+          <div data-aos="slide-up" class="timeline__event timeline__event--type2">
             <div class="timeline__event__icon">
-              <i class="lni-burger"></i>
+              <i class="lni lni-burger"></i>
             </div>
             <div class="timeline__event__date">20-08-2019</div>
             <div class="timeline__event__content">
@@ -41,9 +49,9 @@ export default class TimeLine extends Component {
               </div>
             </div>
           </div>
-          <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+          <div data-aos="slide-up" class="timeline__event timeline__event--type3">
             <div class="timeline__event__icon">
-              <i class="lni-slim"></i>
+              <i class="lni lni-slim"></i>
             </div>
             <div class="timeline__event__date">20-08-2019</div>
             <div class="timeline__event__content">
@@ -58,9 +66,9 @@ export default class TimeLine extends Component {
               </div>
             </div>
           </div>
-          <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div data-aos="slide-up" class="timeline__event timeline__event--type1">
             <div class="timeline__event__icon">
-              <i class="lni-cake"></i>
+              <i class="lni lni-cake"></i>
             </div>
             <div class="timeline__event__date">20-08-2019</div>
             <div class="timeline__event__content">
@@ -76,7 +84,9 @@ export default class TimeLine extends Component {
             </div>
           </div>
         </div>
-      </div>
+        </Container>
+        </Container>
+              </div>
     );
   }
 }
