@@ -17,16 +17,17 @@ export default function Footer() {
                   <li><a href="#faq" class="footer-link">FAQ</a></li>
                 </ul>
               </div>
-              <div class="col-md-3">
-                <h1>Contact Us</h1>
-                <ul class="list-unstyled contact">
+              <div class="col-md-3 contact">
+                <h1>CONTACT US</h1>
+                <ul class="list-unstyled contact-items">
                   <li><h2>+91 8127982371</h2></li>
                   <li><h2>contact@reva.com</h2></li>
                   <li><h2>contact@reva.com</h2></li>
                 </ul>
               </div>
               <p class="copyright">
-                  <h6>copyright REVA Hack &copy;2022</h6>
+                  <h6>copyright REVA Hack &#169;2022</h6>
+                  <h6>Made with &#x2665; by Mohit Kumar</h6>
               </p>
             </div>
           </Container>
