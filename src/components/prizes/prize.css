@@ -12,6 +12,9 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.prizes-main h2{
+  text-align: left;
+}
 
 .title {
   color: #fff;

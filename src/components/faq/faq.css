@@ -12,6 +12,10 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.faq-main h2{
+  text-align: left;
+}
+
 
 .faq-title {
   color: #fff;
