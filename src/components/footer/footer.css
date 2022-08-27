@@ -2,7 +2,7 @@
   position: relative;
   height: auto;
   color: #fff;
-  padding: 4.5rem 5rem 0 5rem;
+  padding: 3.5rem 5rem 0 5rem;
   background-color: black; 
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 } 
@@ -22,10 +22,6 @@
   text-decoration: none;
 }
 
-.footer .copyright h6 {
-  padding-top: 2.5rem; 
-} 
-
 .links {
   padding-bottom: 1rem;
   margin-top: 1rem;
@@ -35,10 +31,33 @@
   margin-bottom: 10px;  
 }
 
-.contact {
-  margin-top: 1.5rem;
+.contact h1 {
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: .1rem;
 }
 
-.contact li h2 {
-  font-size: 1.5rem;
+.contact-items {
+  margin-top: 1.5rem;
+  text-align: right;
+  letter-spacing: .1rem; 
+}
+
+.contact-items li h2 {
+  font-size: 23px;
+  text-align: right;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 1rem; 
+}
+
+.copyright h6 {
+  font-size: 1rem;
+}
+
+.copyright h6:last-child {
+  font-size: .95rem;
+  font-family: monospace;
 }
