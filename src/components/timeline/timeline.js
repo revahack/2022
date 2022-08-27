@@ -14,8 +14,8 @@ export default class TimeLine extends Component {
           <img className="track-img" src={bg} width={"100%"} alt="" />
         </div>
         <Container>
-        <div id="timeline2" class="timeline">
-          <div data-aos="slide-up" class="timeline__event timeline__event--type1">
+        <div data-aos="slide-up" id="timeline2" class="timeline">
+          <div class="timeline__event timeline__event--type1">
             <div class="timeline__event__icon ">
               <i class="lni lni-cake"></i>
             </div>
@@ -32,7 +32,7 @@ export default class TimeLine extends Component {
               </div>
             </div>
           </div>
-          <div data-aos="slide-up" class="timeline__event timeline__event--type2">
+          <div class="timeline__event timeline__event--type2">
             <div class="timeline__event__icon">
               <i class="lni lni-burger"></i>
             </div>
@@ -49,7 +49,7 @@ export default class TimeLine extends Component {
               </div>
             </div>
           </div>
-          <div data-aos="slide-up" class="timeline__event timeline__event--type3">
+          <div class="timeline__event timeline__event--type3">
             <div class="timeline__event__icon">
               <i class="lni lni-slim"></i>
             </div>
@@ -66,7 +66,7 @@ export default class TimeLine extends Component {
               </div>
             </div>
           </div>
-          <div data-aos="slide-up" class="timeline__event timeline__event--type1">
+          <div class="timeline__event timeline__event--type1">
             <div class="timeline__event__icon">
               <i class="lni lni-cake"></i>
             </div>
