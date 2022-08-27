@@ -2,7 +2,7 @@
   position: relative;
   height: auto;
   color: #fff;
-  padding: 3.5rem 5rem 0 5rem;
+  /* padding: 3.5rem 5rem 0 5rem; */
   background-color: black; 
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 } 
@@ -32,7 +32,7 @@
 }
 
 .contact h1 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: right;
   letter-spacing: .1rem;
 }
@@ -44,13 +44,15 @@
 }
 
 .contact-items li h2 {
-  font-size: 23px;
+  font-size: 20px;
   text-align: right;
 }
 
 .copyright {
   text-align: center;
   padding-top: 1rem; 
+  margin: 0;
+  padding-bottom: 5px;
 }
 
 .copyright h6 {
@@ -60,4 +62,33 @@
 .copyright h6:last-child {
   font-size: .95rem;
   font-family: monospace;
+}
+
+.copy{
+  margin: 0;
+}
+h6{
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+  a{
+    font-size: 10px !important;
+  }
+  .contact h2 {
+    font-size: 10px !important;
+  }
+  .contact h1{
+    font-size: 15px !important;
+
+  }
+  .copy > p{
+    margin: 0;
+    font-size: 10px !important;
+  }
+  h6{
+    font-size: 11px !important;
+    padding-bottom: 2px;
+  }
+
 }

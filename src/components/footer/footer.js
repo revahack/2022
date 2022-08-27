@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="footer">
         <div class="site-section">
           <Container>
-            <div class="row">
+            <div class="d-flex px-5 justify-content-between align-items-center">
               <div class="col-sm">
                 <ul class="list-unstyled links">
                   <li><a href="#about" class="footer-link">ABOUT</a></li>
@@ -25,9 +25,11 @@ export default function Footer() {
                   <li><h2>contact@reva.com</h2></li>
                 </ul>
               </div>
+            </div>
+            <div className="copy">
               <p class="copyright">
-                  <h6>copyright REVA Hack &#169;2022</h6>
-                  <h6>Made with &#x2665; by Mohit Kumar</h6>
+                  <h6>Copyright REVA Hack &#169;2022</h6>
+                  <h6 style={{ margin:"0" }}>Made with &#x2665; by Tech Team</h6>
               </p>
             </div>
           </Container>
