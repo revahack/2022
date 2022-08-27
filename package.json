@@ -10,6 +10,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.2.0",
     "hover.css": "^2.3.2",
+    "package-name": "^0.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
