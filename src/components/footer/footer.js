@@ -20,9 +20,9 @@ export default function Footer() {
               <div class="col-md-3 contact">
                 <h1>CONTACT US</h1>
                 <ul class="list-unstyled contact-items">
-                  <li><h2>+91 8127982371</h2></li>
-                  <li><h2>contact@reva.com</h2></li>
-                  <li><h2>contact@reva.com</h2></li>
+                  {/* <li><h2>+91 8127982371</h2></li> */}
+                  <li><h2>info.revahack@gmail.com</h2></li>
+                  {/* <li><h2>contact@reva.com</h2></li> */}
                 </ul>
               </div>
             </div>
