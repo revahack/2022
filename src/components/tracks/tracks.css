@@ -86,15 +86,18 @@
   margin-top: 1rem;
   letter-spacing: 1.2px;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
 }
 
 .card-title {
   text-align: center;
   font-weight: bold;
-  font-size: 2rem;
   text-shadow: 0 0 7px rgb(244, 241, 255);
+}
+
+.track-heading-container {
+  margin-top: 2rem;
 }
 
 @media only screen and (min-width: 992px) {
@@ -112,11 +115,11 @@
 
   .track-container {
     position: relative;
-    width: 320px;
-    min-height: 250px;
+    width: 250px;
+    min-height: 200px;
     border: 2px solid white;
     border-radius: 2rem;
-    margin: 1.5rem 0.5rem;
+    margin: 1.5rem 2.5rem;
     box-shadow: 2px 2px 12px 3px rgba(255, 255, 255, 0.2);
   }
 }
