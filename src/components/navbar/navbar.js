@@ -9,6 +9,16 @@ export default function BootNavbar() {
   return (
     <Navbar sticky="top" className="navbar" expand="lg">
       <Container>
+        <a
+          id="mlh-trust-badge"
+          href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=gray"
+        >
+          <img
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-gray.svg"
+            alt="Major League Hacking 2023 Hackathon Season"
+            style={{ width: "100%" }}
+          />
+        </a>
         <Navbar.Brand href="#">
           {/* <h2 className="navtitle">REVA Hack</h2> */}
           <img
