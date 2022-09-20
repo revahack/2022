@@ -1,4 +1,5 @@
 .test{
+  display: flex;
   color: white !important;
   /* font-family: Arial, Helvetica, sans-serif !important; */
   font-family: 'Ubuntu', sans-serif !important;
@@ -224,3 +225,11 @@
 .atag{
   text-decoration: none;
 }
+@media only screen and (max-width: 992px) {
+  
+  .test::before {
+    top: -50px;
+    font-size: 115px;
+    left: -10px;
+    }
+  }

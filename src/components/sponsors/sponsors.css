@@ -13,11 +13,12 @@
   transform: translate(-50%, -50%);
 }
 
-.sponsors-main h2{
+/* .sponsors-main h2{
   text-align: left;
-}
+} */
 
 .sponsors-title {
+  text-align: center;
   color: #fff;
 }
 

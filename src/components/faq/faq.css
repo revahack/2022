@@ -13,12 +13,14 @@
   transform: translate(-50%, -50%);
 }
 .faq-main h2{
-  text-align: left;
+  /* text-align: left; */
 }
 
 
 .faq-title {
   color: #fff;
+  text-align: center;
+
 }
 
 .faq-details {

@@ -13,10 +13,12 @@
   transform: translate(-50%, -50%);
 }
 .prizes-main h2{
-  text-align: left;
+  /* text-align: left; */
 }
 
 .title {
+  text-align: center;
+
   color: #fff;
 }
 

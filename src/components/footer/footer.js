@@ -21,7 +21,9 @@ export default function Footer() {
                 <h1>CONTACT US</h1>
                 <ul class="list-unstyled contact-items">
                   {/* <li><h2>+91 8127982371</h2></li> */}
-                  <li><h2>info.revahack@gmail.com</h2></li>
+                  <li><h2><a href="mailto:info.revahack@gmail.com" target="_blank" rel="noopener noreferrer">info.revahack@gmail.com</a></h2></li>
+                  
+                  {/* <li><h2>info.revahack@gmail.com</h2></li> */}
                   {/* <li><h2>contact@reva.com</h2></li> */}
                 </ul>
               </div>
@@ -29,7 +31,7 @@ export default function Footer() {
             <div className="copy">
               <p class="copyright">
                   <h6>Copyright REVA Hack &#169;2022</h6>
-                  <h6 style={{ margin:"0" }}>Made with &#x2665; by Tech Team</h6>
+                  {/* <h6 style={{ margin:"0" }}>Made with &#x2665; by Tech Team</h6> */}
               </p>
             </div>
           </Container>

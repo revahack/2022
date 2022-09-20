@@ -6,14 +6,16 @@ import "./sponsors.css";
 export default class Sponsors extends Component {
   render() {
     return (
-      <div id="sponsors" className="sponsors-main">
-        <Container className="sponsors-container">
-          <Row>
-            <h1 className="sponsors-title"> SPONSORS </h1>
-          </Row>
-          <Row>
-            <h2 className="sponsors-details"> Coming Soon.... </h2>
-          </Row>
+      <div
+        id="about"
+        className="about-main d-flex align-items-center justify-content-center"
+      >
+        <Container>
+          <div data-aos="slide-up" className="about-heading">
+            <h1 className="heading">SPONSORS</h1>
+            <img className="line" src="/about_bg.png" width={"100%"} alt="" />
+          </div>
+          <Container></Container>
         </Container>
       </div>
     );
